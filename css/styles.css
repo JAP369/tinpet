@@ -1,0 +1,172 @@
+.container-fluid {
+  padding: 7% 15%;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  list-style: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light';
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+
+.price-text {
+  font-size: 3rem;
+  list-style: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
